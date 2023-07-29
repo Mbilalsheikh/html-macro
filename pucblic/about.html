@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>macrosol</title>
+    <!-- style sheet link -->
+    <link rel="stylesheet" href="../style.css">
+    <!-- font style link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <!--font awesome cdnlink  -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> -->
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <main>
+        <!-- header start -->
+        <section class="sub-header" >
+            <nav>
+                <a href="./index.html"><img src="../Assets/images/logo (1).png" alt="company logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./pucblic/about.html">About Us</a></li>
+                        <li><a href="">Product</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>
+                About Us
+            </h1>
+            </section>
+            <!-- about Us content start -->
+            <section class="about-us">
+                <div class="row">
+                    <div class="about-col">
+                        <h1>About Are company</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, veniam! Quia doloremque sint ea placeat accusantium! Dolorum, earum eveniet quam neque quia nulla nobis, illo eligendi doloribus quos, quod velit?</p>
+                        <a href="" class="btn">Explore Now</a>
+                    </div>
+                    <div class="about-col">
+                    <img src="../Assets/images/intro.jpeg" alt="">
+                </div>
+                </div>
+            </section>
+            <!-- about Us content end -->
+
+
+
+
+
+        </main>
+
+        <!-- responsive javascript start -->
+        <script>
+    
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <!-- responsive javascript end -->
+    
+    
+    </body>
+    </html>

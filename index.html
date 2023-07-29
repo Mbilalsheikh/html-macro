@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>macrosol</title>
+    <!-- style sheet link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font style link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <!--font awesome cdnlink  -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> -->
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <main>
+        <!-- header start -->
+        <section class="header" >
+            <nav>
+                <a href="./index.html"><img src="./Assets/images/logo (1).png" alt="company logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./pucblic/about.html">About Us</a></li>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>We have a solution to all
+                    your industry need!</h1>
+                <p>Macrosol are serving to multiple sectors of Pakistan including Energy, Oil & Gas, Sugar Mills, Pharmaceuticals, Textile & Cement Sector</p>
+                <a href="#" class="btn">Contact Us</a>
+            </div>
+        </section>
+        <!-- header end -->
+        <!-- content vsion start -->
+        <section class="vision">
+            <h1>Here Commitment Matters!</h1>
+            <div class="row">
+                <div class="vision-col">
+                    <h3>Vision</h3>
+                    <p>“To be the company that best understands the requirement of Customer and cater them
+                        professionally.”</p>
+                </div>
+                <div class="vision-col">
+                    <h3>Company</h3>
+                    <img src="./Assets/images/logo (1).png" alt="">
+                </div>
+                <div class="vision-col">
+                    <h3>Mision</h3>
+                    <p>“To provide quality product with convenient prices to maintain our customer’s 
+                        satisfactions and sustain our profitability.”</p>
+                </div>
+            </div>
+        </section>
+        <!-- content vsion end -->
+        <!-- our facilities start -->
+        <section class="facilities">
+            <h1>Our Services</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <i class="fa-solid fa-truck"></i>
+                    <h3>Quick Delivery</h3>
+                    <p>We know the importance of production losses and reducing them via timely deliveries.</p>
+                </div>
+                <div class="facilities-col">
+                    <i class="fa-solid fa-truck"></i>
+                    <h3>Quick Delivery</h3>
+                    <p>We know the importance of production losses and reducing them via timely deliveries.</p>
+                </div>
+                <div class="facilities-col">
+                    <i class="fa-solid fa-truck"></i>
+                    <h3>Quick Delivery</h3>
+                    <p>We know the importance of production losses and reducing them via timely deliveries.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- our facilities end -->
+        <!-- about company start -->
+        <section class="abt">
+            <h1>Our Company</h1>
+            <p>Process Automation is Pakistan’s leading Online Shop & Industrial Supplier. Process Automation Products has kept on growing into what it is today - one of the world's leading suppliers of Industrial Test & Process Equipment. With a network of Agents and Resellers working on our behalf and a website containing thousands of diverse products, we have built a huge customer base, with products being sold not only in the Pakistan but all over the world too.</p>
+            <div class="row">
+                <div class="abt-col">
+                    <i class="fa-solid fa-truck"></i>
+                    <div>
+                        <h3>Our Portfolio</h3>
+                <p>Our product portfolio ranges from Gas Detectors, Flow Meters, Paperless Recorders, Gauges,  </p>
+            </div>
+            </div>
+                <div class="abt-col">
+                    <i class="fa-solid fa-truck"></i>
+                <div>
+                    <h3>Our Portfolio</h3>
+                <p>Our product portfolio ranges from Gas Detectors, Flow Meters, Paperless Recorders, Gauges,  </p>
+                
+            </div>
+            </div>
+            </div>
+    
+        </section>
+        <!-- about company end -->
+        <!-- contact Us  start -->
+        <section class="cta">
+            <h1>“If you wish to receive detailed e feel free to</h1>
+            <a href="" class="btn">Contact Us</a>
+        </section>
+        <!-- contact Us  end -->
+
+
+
+
+
+
+    </main>
+
+    <!-- responsive javascript start -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <!-- responsive javascript end -->
+
+
+</body>
+</html>
